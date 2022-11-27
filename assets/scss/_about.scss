@@ -1,0 +1,81 @@
+/* ---------------------------- START ABOUT PAGE ---------------------------- */
+.about-page {
+    background-image: url(../image/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 720px;
+
+    .container {
+        .title {
+            height: 1200px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 0 48px;
+
+            .title-list {
+                display: flex;
+                gap: 10px;
+                margin: 0 0 20px;
+
+                .title-item {
+                    font-size: 14px;
+                    color: #00000066;
+                    font-weight: 900;
+                    line-height: 1.8;
+
+                    a {
+                        color: #fd4c82;
+                        font-size: 14px;
+                        font-weight: 900;
+                        line-height: 1.8;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            h1 {
+                font-size: 50px;
+                color: #fd4c82;
+            }
+
+        }
+    }
+}
+
+/* ----------------------------- END ABOUT PAGE ----------------------------- */
+/* --------------------        START STATISTICS PAGE -------------------- */
+.statistics {
+    background-color: #0000001a;
+    padding: 85px 0;
+
+    .container {
+        .statistics-content {
+            display: flex;
+            justify-content: space-between;
+            .statistics-item {
+                padding: 0 15px;
+                text-align: center;
+                h2 {
+                    font-weight: 700;
+                    font-size: 40px;
+                    color: #fd4c82;
+                    line-height: 1.8;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.4);
+                    letter-spacing: 2px;
+                    line-height: 1.8;
+            }
+
+        }
+    }
+    }
+}
+
+/* --------------------------- END STATISTICS PAGE -------------------------- */
