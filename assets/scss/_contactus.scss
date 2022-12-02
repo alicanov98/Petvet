@@ -1,0 +1,131 @@
+.card-contactus {
+    .container {
+        .card-box-contact {
+            padding-top: 119px;
+            padding-bottom: 40px;
+            display: flex;
+            justify-content:space-around;
+            .card-contact {
+                display: flex;
+
+                 text-align: center;
+                padding: 48px 15px 0;
+
+                .card-content-contact {
+                    width: 255px;
+                    height: 242PX;
+                    background-color: #f8f9fa;
+                    padding: 60px 30px 30px;
+                    position: relative;
+
+                    .card-icon-contact {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        width: 100px;
+                        height: 100px;
+                        background: #fd4c82;
+                        border: 7px solid #fff;
+                        margin: 0 auto;
+                        margin-top: -50px;
+                        border-radius: 50%;
+                        display: flex;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 32px;
+
+                        .fa-solid {
+                            font-size: 30px;
+                            line-height: 1.8;
+                            color: #fff;
+                        }
+
+                    }
+
+                    .card-title-contact {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 1.8;
+                        letter-spacing: 1px;
+                        margin: 0 0 24px;
+                        color: black;
+                    }
+
+                    .text-contact {
+                        text-align: center;
+                        margin: 0 0 16px;
+                        font-size: 17px;
+                        font-weight: 400;
+                        line-height: 1.8;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+.contact{
+    .container{
+        .contact-content{
+
+            display: flex;
+            justify-content: center;
+            background-color:#f8f9fa ;
+            text-align: center;
+            height: 558px;
+        .image{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            .top-contact{
+                padding: 6px 15px;
+                width: 459px;
+                height: 52px;
+                margin-bottom: 16px;
+                border: 1px solid #ced4da;
+                background-color: #ffffff;
+                border-radius: 5px;
+                color: #000;
+                font-size: 15px;
+                &::-webkit-input-placeholder {
+                    font-size: 17px;
+                  }
+            }
+            .message{
+                max-width: 459px;
+                max-height: 171px;
+                min-height: 171px;
+                min-width: 459px;
+            }
+            .btn-contact{
+                padding: 16px 48px;
+                background-color: #91c235;
+                color: #ffffff;
+                border: 1px solid #91c235;
+                border-radius: 7px;
+                cursor: pointer;
+                transition: .3s all ease;
+                box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+                font-size: 14px;
+                line-height: 1.5;
+                &:hover {
+                  background-color: #ffffff;
+                  color: #91c235;
+                }
+            }
+        }
+    }
+    }
+}

@@ -1085,7 +1085,7 @@
 
 /* --------------------------- END FOOTER SECTION --------------------------- */
 /* ---------------------------- START ABOUT PAGE ---------------------------- */
-.about-page {
+.all-home-page {
   background-image: url(../image/home-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1093,7 +1093,7 @@
   background-attachment: fixed;
   height: 720px;
 }
-.about-page .container .title {
+.all-home-page .container .title {
   height: 1200px;
   display: flex;
   justify-content: center;
@@ -1101,25 +1101,25 @@
   align-items: flex-start;
   padding: 0 0 48px;
 }
-.about-page .container .title .title-list {
+.all-home-page .container .title .title-list {
   display: flex;
   gap: 10px;
   margin: 0 0 20px;
 }
-.about-page .container .title .title-list .title-item {
+.all-home-page .container .title .title-list .title-item {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 900;
   line-height: 1.8;
 }
-.about-page .container .title .title-list .title-item a {
+.all-home-page .container .title .title-list .title-item a {
   color: #fd4c82;
   font-size: 14px;
   font-weight: 900;
   line-height: 1.8;
   cursor: pointer;
 }
-.about-page .container .title h1 {
+.all-home-page .container .title h1 {
   font-size: 50px;
   color: #fd4c82;
 }
@@ -1380,4 +1380,120 @@
   background-color: #fd4c82;
 }
 
-/* ---------------------------- END BLOG SECTION ---------------------------- *//*# sourceMappingURL=main.css.map */
+/* ---------------------------- END BLOG SECTION ---------------------------- */
+.card-contactus .container .card-box-contact {
+  padding-top: 119px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.card-contactus .container .card-box-contact .card-contact {
+  display: flex;
+  text-align: center;
+  padding: 48px 15px 0;
+}
+.card-contactus .container .card-box-contact .card-contact .card-content-contact {
+  width: 255px;
+  height: 242PX;
+  background-color: #f8f9fa;
+  padding: 60px 30px 30px;
+  position: relative;
+}
+.card-contactus .container .card-box-contact .card-contact .card-content-contact .card-icon-contact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background: #fd4c82;
+  border: 7px solid #fff;
+  margin: 0 auto;
+  margin-top: -50px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.card-contactus .container .card-box-contact .card-contact .card-content-contact .card-icon-contact .fa-solid {
+  font-size: 30px;
+  line-height: 1.8;
+  color: #fff;
+}
+.card-contactus .container .card-box-contact .card-contact .card-content-contact .card-title-contact {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  margin: 0 0 24px;
+  color: black;
+}
+.card-contactus .container .card-box-contact .card-contact .card-content-contact .text-contact {
+  text-align: center;
+  margin: 0 0 16px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: black;
+}
+
+.contact .container .contact-content {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  text-align: center;
+  height: 558px;
+}
+.contact .container .contact-content .image {
+  width: 50%;
+}
+.contact .container .contact-content .image img {
+  width: 100%;
+}
+.contact .container .contact-content .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.contact .container .contact-content .form .top-contact {
+  padding: 6px 15px;
+  width: 459px;
+  height: 52px;
+  margin-bottom: 16px;
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #000;
+  font-size: 15px;
+}
+.contact .container .contact-content .form .top-contact::-webkit-input-placeholder {
+  font-size: 17px;
+}
+.contact .container .contact-content .form .message {
+  max-width: 459px;
+  max-height: 171px;
+  min-height: 171px;
+  min-width: 459px;
+}
+.contact .container .contact-content .form .btn-contact {
+  padding: 16px 48px;
+  background-color: #91c235;
+  color: #ffffff;
+  border: 1px solid #91c235;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.contact .container .contact-content .form .btn-contact:hover {
+  background-color: #ffffff;
+  color: #91c235;
+}/*# sourceMappingURL=main.css.map */
